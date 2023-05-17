@@ -1,7 +1,7 @@
 {
-	"name": "Area Riservata",
+	"name": "Nome Plugin",
 	"version": "1.0",
-	"download_url": "https://andreasargentini.com/updates/area-riservata/area-riservata.zip",
+	"download_url": "https://andreasargentini.com/updates/nome-plugin/nome-plugin.zip",
 
 	"requires": "6.0",
 	"tested": "6.2",
@@ -9,9 +9,9 @@
 	"upgrade_notice": "Aggiornamento obbligatorio",
 
 	"sections": {
-		"description": "Estensione area riservata con plugin Profile Builder",
-		"installation": "Prima di installare l'aggiornamento di questo plugin controllare se sono presenti aggiornamenti per i plugins Profile Builder e Profile Builder Pro. Nel caso ci fossero dare la precedenza agli aggiornamenti di questi due plugin.",
-		"changelog": "Changelog. <p>Prima versione de plugin.</p>"
+		"description": "Descrizione plugin",
+		"installation": "Istruzioni per installazione",
+		"changelog": "Changelog. <p>Prima versione del plugin.</p>"
 	},
 	
 	"icons" : {

@@ -4,7 +4,7 @@ if ( ! defined( 'WPINC' ) ) {
 	die;
 }
 
-class Area_Riservata_Deactivator {
+class Starter_Plugin_Deactivator {
 
 	public static function deactivate() {
 

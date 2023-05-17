@@ -4,7 +4,7 @@ if ( ! defined( 'WPINC' ) ) {
 	die;
 }
 
-class Area_Riservata_Activator {
+class Starter_Plugin_Activator {
 
 	public static function activate() {
 
