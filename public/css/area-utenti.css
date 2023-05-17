@@ -1,0 +1,207 @@
+.mce-toolbar .mce-btn button, .qt-dfw{box-shadow: none}
+.container-giorno{padding: 20px; margin-bottom: 30px; transition: all 0.2s ease; background-color: var(--secondary);}
+.wppb-user-forms .wppb-repeater > ul{background-color: white; padding:20px; border-bottom:0px; margin-bottom:15px; position: relative;}
+.wppb-user-forms ul{margin-bottom:0px}
+.wppb-user-forms ul li.wppb-repeater{position: relative; border:0px; margin-bottom:0px}
+.wppb-user-forms .wppb-repeater > ul > li.wppb-timepicker{ margin-bottom: 10px; border-bottom: 1px solid lightgray; padding-bottom:10px}
+.wppb-user-forms .wppb-repeater > ul > li.wppb-timepicker:last-child{padding-bottom:0px; margin-bottom:0px; border-bottom:0px}
+.wppb-user-forms .wppb-repeater > ul > li{display: flex; align-items: center; flex-wrap: wrap;}
+.wppb-user-forms input:not([type="button"]):not([type="reset"]):not([type="submit"]):not([type="file"]):not([value="agree"]), .wppb-form-field.wppb-timepicker select{cursor: pointer}
+.container-giorno > li > label, .wppb-repeater > ul > li > label, .container-orario > li > label{text-transform: uppercase; width: 20%; font-weight: 700; font-size: 14px; padding-right: 10px;}
+.wppb-user-forms ul li.li-riposo, .wppb-user-forms ul li.li-appuntamento, .wppb-user-forms ul li.li-blocca{padding:20px; margin-bottom:15px; transition: all 0.2s ease; background-color: white;}
+.wppb-user-forms input[type="checkbox"]{width: 17px; height: 17px; position: relative; top:2px; margin-right: 3px!important;}
+.wppb-rpf-add{bottom:0px; right: 0px; background-color: #37a537; color:white; transition: all 0.2s ease; opacity: 1; visibility: visible;}
+.wppb-rpf-add:hover{background-color: #388038;}
+.container-giorno.riposo-attivo{border-color:#cf0000; background-color: #fff1f1;}
+.wppb-rpf-remove{width: 30px; height: 30px; box-shadow: none; border-radius: 0px; line-height: 22px; right: 0; left: auto; border:0px; color:white; background-color: red; transition: all 0.2s ease; opacity: 1; visibility: visible; line-height: 27px; font-size: 16px; font-weight: bold;}
+.wppb-rpf-limit-reached .wppb-rpf-action.wppb-rpf-add{opacity: 0;}
+.wppb-rpf-remove:hover{border:0px; background-color: #d10202;}
+.li-giorno .extra_field_heading, .li-giorno .text-riposo{display: inline-block;}
+.li-giorno .text-riposo{margin-left:10px; opacity: 0; text-transform: uppercase; font-weight: 700; font-size: 13px; color: #cf0201; transition: all 0.2s ease;}
+.container-giorno.riposo-attivo .li-giorno .text-riposo{opacity: 1;}
+.wppb-checkboxes label{cursor: pointer;}
+.container-giorno.riposo-attivo .wppb-rpf-add, .container-giorno.riposo-attivo .wppb-rpf-action.wppb-rpf-remove{opacity: 0; visibility: hidden;}
+.container-giorno li.wppb-repeater:after{content:''; display: block; width: 100%; height: 100%; background-color: white; opacity: 0; visibility: hidden; position: absolute; z-index: 99; top:0px; left:0px; transition: all 0.2s ease;}
+.container-giorno.riposo-attivo li.wppb-repeater:after{opacity: 0.7; visibility: visible;}
+.container-orario{padding:10px 20px; border:1px solid #ddd; border-radius: 5px; transition: all 0.2s ease; background-color: white; margin-bottom:15px; position: relative; overflow: hidden;}
+.container-giorno > li.aggiungi-orario > label{width: 20%;}
+.wppb-user-forms ul li.aggiungi-orario{padding:20px; border: 1px solid #ddd; border-radius: 5px; margin-bottom:15px; background-color: white; display: flex; overflow: hidden; position: relative;}
+.container-orario > li{display: flex; align-items: center; flex-wrap: wrap; margin-bottom: 10px!important; border-bottom: 1px solid #ddd; padding-bottom: 10px!important;}
+.container-orario > li:last-child{margin-bottom:0px!important; padding-bottom: 0px!important; border-bottom:0px}
+.container-orario > li > label{width: 20%;}
+.container-giorno > .container-orario:last-child{display: none;}
+.container-giorno > li.li-riposo-2 > label{width: 20%;}
+.container-orario-2{padding:10px 20px; border:1px solid #ddd; border-radius: 5px; transition: all 0.2s ease; background-color: white; margin-bottom:15px; display: none; position: relative; overflow: hidden;}
+.container-orario-2 > li{display: flex; align-items: center; margin-bottom: 10px!important; border-bottom: 1px solid #ddd; padding-bottom: 10px!important;}
+.container-orario-2 > li:last-child{margin-bottom:0px!important; padding-bottom: 0px!important; border-bottom:0px}
+.container-orario-2 > li > label{width: 20%;}
+.container-giorno .container-orario:after, .container-giorno .container-orario-2:after, .container-giorno .aggiungi-orario:after{content:''; display: block; width: 100%; height: 100%; background-color: white; opacity: 0; visibility: hidden; position: absolute; z-index: 99; top:0px; left:0px; transition: all 0.2s ease;}
+.container-giorno.riposo-attivo .container-orario:after, .container-giorno.riposo-attivo .container-orario-2:after, .container-giorno.riposo-attivo .aggiungi-orario:after{opacity: 0.7; visibility: visible;}
+#wppb-epaa-admin-review-links{margin-bottom:30px}
+#wppb-epaa-admin-review-links > a{background-color: var(--primary); color:white; padding:5px 15px; text-decoration: none; text-transform: uppercase; font-weight: 600; display: inline-block; margin-bottom: 10px; font-size: 12px; transition: all 0.2s ease-out;}
+#wppb-epaa-admin-review-links > a:hover{filter: brightness(85%);}
+#wppb-epaa-admin-review-links a:nth-child(3){background-color: #b40000;}
+#wppb-epaa-admin-review-links a:nth-child(3):hover{background-color: #ce0000;}
+.wppb-user-forms ul li.orario-inizio-1, .wppb-user-forms ul li.orario-inizio-2{display: flex; align-items: center; flex-wrap: wrap; padding:10px 20px; border:1px solid #ddd; margin-bottom:0px; border-radius: 5px 5px 0 0;}
+.wppb-user-forms ul li.orario-fine-1, .wppb-user-forms ul li.orario-fine-2{display: flex; align-items: center; flex-wrap: wrap; padding:10px 20px; border:1px solid #ddd; margin-bottom:15px; border-radius: 0 0 5px 5px; border-top:0px}
+li.orario-inizio-1 label, li.orario-inizio-2 label, li.orario-fine-1 label, li.orario-fine-2 label{width: 20%;}
+.admin-bar #wppb_form_general_message{padding-top:6px!important}
+.wppb-form-field > span.wppb-description-delimiter.wppb-epaa-description{margin-left:20%; font-style: normal; font-weight: 600; color:#c50200; width: auto; display: block; margin-top:5px}
+.wppb-wysiwyg.wppb-form-field > span.wppb-description-delimiter.wppb-epaa-description{margin-left:0;}
+.wppb-user-forms ul li.wppb-wysiwyg{margin-bottom:20px; border-bottom:1px solid gray}
+.wppb-epaa-actions{display: inline-block; width: auto; border:1px solid gray; padding-left:0%; margin-left: 0%; padding: 5px 15px; border-radius: 5px; background-color: #fffac7;}
+.container-giorno .wppb-epaa-actions{margin-left: 5%;}
+.wppb-wysiwyg .wppb-epaa-actions{margin-top: 10px;}
+.wppb-epaa-slider{background-color: gray; border-radius: 3px;}
+.wppb-epaa-slider:before{border-radius: 1px;}
+.wppb-wysiwyg .wp-editor-tools{display: none;}
+.wp-editor-container{border:0px!important}
+.mce-top-part::before{box-shadow: none!important;}
+.mce-container > iframe{min-height: 250px!important;}
+.wppb-form-field.wppb-wysiwyg label, .wppb-form-field.wppb-default-username label, .wppb-form-field.wppb-default-e-mail label, .wppb-form-field.wppb-default-password label{font-weight: 700;}
+.wppb-user-forms ul li.head-informazioni{padding-bottom:30px; transition: all 0.3s ease-out}
+.wppb-user-forms ul li.wppb-wysiwyg > label{display: none;}
+.wppb-user-forms ul li.wppb-wysiwyg .container-ante-info{width: 30%; float: left; padding-right: 15px;}
+.wppb-user-forms ul li.wppb-wysiwyg .container-ante-info div:first-child{font-weight: 700; font-size: 20px; margin-bottom: 8px; padding-bottom:8px; border-bottom:1px dashed lightgray; color: var(--primary); line-height: 27px}
+.wppb-user-forms ul li.wppb-wysiwyg .wppb-description-delimiter{display: none;}
+.wppb-user-forms ul li.wppb-wysiwyg .wppb-description-delimiter.wppb-epaa-description{display: inline;}
+.form-submit input[type="submit"].submit.button{text-transform: uppercase;}
+.plus-placeholder{    background-color: #37a538; color: white; width: 18px; display: inline-block; text-align: center; font-style: normal; font-weight: 700; font-size: 13px; height: 18px; line-height: 16px; border-radius: 3px; margin: 0px 3px!important;}
+.container-giorno.orario-bloccato{border-color: #c50000; background-color: #fff1f1;}
+.container-giorno.orario-bloccato .li-giorno .extra_field_heading:after{content: 'Orario bloccato - eventuali modifiche dovranno essere approvate da un amministratore'; display: inline-block; font-size: 14px; margin-left:8px; color: #c50100; font-weight: 500;}
+.page.operatore .li-blocca{display: none;}
+.wppb-user-forms ul li.li-blocca{background-color: #f3f3ff;}
+.container-giorno .li-riposo .wppb-epaa-actions{margin-left:20%; margin-top:10px}
+.wppb-form-field.li-blocca > span{margin-left:20%}
+.select2-container--open .select2-dropdown--below{border-top:1px solid #aaa!important; border-radius: 4px!important; overflow: hidden;}
+span.wppb-alert-title{display: flex; background-color: var(--primary); padding:5px; margin-bottom:5px; color:white}
+.wppb-error span.wppb-alert-title{background-color: #6f0000;}
+.alert span.wppb-alert-title{background-color: var(--primary);}
+.wppb-success span.wppb-alert-title{background-color: #174B06;}
+span.wppb-alert-title img{width: 24px; height: 24px; margin-right: 7px;}
+.wppb-user-forms.wppb-edit-user .wppb-front-end-logout .wppb-alert-title{display: none}
+.administrator .wppb-user-forms.wppb-edit-user .wppb-front-end-logout, .amministratore_area_utenti .wppb-user-forms.wppb-edit-user .wppb-front-end-logout{display: none}
+.administrator .wppb-user-forms.wppb-register-user .wppb-front-end-logout, .amministratore_area_utenti .wppb-user-forms.wppb-register-user .wppb-front-end-logout{display: none}
+.wppb-logout-url{margin-left: 15px; color: white; text-transform: uppercase; background-color: #c50200; text-decoration: none; padding: 3px 7px 3px 12px; border-radius: 3px; transition: all 0.2s ease}
+.wppb-logout-url:hover{background-color:#bb0001; color:white}
+.wppb-logout-url:active, .wppb-logout-url:focus{color:white}
+.wppb-front-end-logout strong{font-size: 20px}
+.wppb-user-forms.wppb-edit-user > ul:first-child{border-bottom: 1px solid gray}
+#select_user_to_edit_form{margin-bottom:10px; transition: all 0.3s ease-out;}
+#select_user_to_edit_form{height: 65px;}
+#select_user_to_edit_form p{position: relative;}
+.page form.wppb-user-forms.wppb-edit-user, .page form.wppb-user-forms.wppb-register-user{position: relative;}
+.page.form-loaded .wppb-user-forms ul li.head-informazioni{border-color: gray}
+.wppb-error a{display: none;}
+.wppb-heading.li-giorno h5{font-size: 25px; font-weight: 700; font-family: sans-serif; color: var(--primary)}
+.orario-bloccato .wppb-heading.li-giorno h5{color:#c50000}
+.wppb-form-field.wppb-send-credentials-checkbox{display: none}
+.wppb-form-field .wppb-checkboxes label, .wppb-form-field .wppb-radios label{display: inline!important;}
+#wppb-epaa-admin-review-links{color:transparent}
+.wppb-checkboxes{width: 79.9%!important;}
+.wppb-user-forms .wppb-checkboxes li, .wppb-user-forms .wppb-radios li{padding:0px!important}
+.wppb-user-forms .wppb-repeater > ul[data-wppb-rpf-set-order="0"]:after{content: "Orario 1"}
+.wppb-user-forms .wppb-repeater > ul[data-wppb-rpf-set-order="1"]:after{content: "Orario 2"}
+.wppb-user-forms .wppb-repeater > ul[data-wppb-rpf-set-order="2"]:after{content: "Orario 3"}
+.wppb-user-forms .wppb-repeater > ul[data-wppb-rpf-set-order="3"]:after{content: "Orario 4"}
+.wppb-user-forms .wppb-repeater > ul[data-wppb-rpf-set-order="4"]:after{content: "Orario 5"}
+.wppb-user-forms .wppb-repeater > ul:after{display: block; position: absolute; top: 0px; left: 0px; background-color: var(--primaryAR); border-left: 0px; padding: 0px 10px; font-size: 13px; color: black;}
+.wppb-error, .wppb-warning, .wppb-notice, .wppb-success, .wppb-epaa-warning{border-radius: 3px;}
+.cont-esempio ul{padding: 5px 0px 0px 20px!important; margin-bottom:0px!important}
+.cont-esempio ul li{list-style: disc!important; padding-bottom: 7px!important}
+.cont-esempio strong{display:block; padding-top: 7px; border-top:1px dashed lightgray}
+.wppb-user-forms div#wppb-msf-tabs{border-bottom:1px solid gray; margin-bottom:25px}
+.wppb-msf-step-commands{display: none;}
+.wppb-user-forms .form-submit[data-wppb-msf="yes"] #register, .wppb-user-forms .form-submit[data-wppb-msf-ep="yes"] #edit_profile{width: auto;}
+.wppb-user-forms ul li.wppb-msf-step{padding-bottom:0px}
+.wppb-user-forms.wppb-edit-user > ul p.wppb-epaa-admin-actions{display: inline-block; margin-right: 20px; margin-bottom:0px; margin-bottom:30px}
+.wppb-user-forms ul li.wppb-wysiwyg .container-ante-info div:last-child{font-size: 15px; line-height: 21px;}
+.wppb-user-forms .wppb-form-field > ul.wppb-radios > li:first-child{margin-right: 10px;}
+.wppb-form-field.wppb-default-password{margin-bottom:30px; padding-bottom:30px; border-bottom:1px solid gray}
+#select_user_to_edit_form:after{margin-bottom:10px; padding:0px; height: 48px;}
+#select_user_to_edit_form p{padding-bottom:0px; padding:10px!important; background-color: var(--secondary); height: 48px;}
+#select_user_to_edit_form p label{font-weight: 700; position: relative; top:1px}
+#select_user_to_edit_form p:after{padding:12px}
+.container-btn-step{margin-bottom:30px; border-bottom:1px solid gray}
+.container-btn-step span.btn-active{background-color: #4451ab;}
+.container-btn-step span{margin:0px; border-radius: 0px; min-width: 115px; box-shadow: none; text-transform: uppercase; background-color: var(--secondaryAR); color:black; border:1px solid gray; border-bottom:0px; cursor: pointer; padding: 7px 17px; display: inline-block; text-align: center; transition: all 0.2s ease-out;}
+.container-btn-step span:last-child{border-left:0px}
+.container-btn-step span.btn-active:last-child{border-left:0px}
+.container-btn-step span.btn-active{background-color: var(--primaryAR); color:black; border:1px solid gray; border-bottom:0px}
+.container-btn-step span:hover{border:1px solid gray; border-bottom:0px; background-color: var(--primaryAR); color:black}
+.container-btn-step span:last-child:hover{border-left:0px}
+.container-btn-step span:active{border:1px solid gray; border-bottom:0px;}
+.container-btn-step span:last-child:active{border-left:0px}
+.container-btn-step span:focus{border:1px solid gray; border-bottom:0px;}
+.container-btn-step span:last-child:focus{border-left:0px}
+.wppb-user-forms ul li.li-avvisi{border-bottom:1px solid gray; margin-bottom:20px}
+.wppb-user-forms ul li.li-avvisi > label{padding-right: 15px; font-weight: 800; line-height: 23px;}
+.wppb-user-forms ul li.li-avvisi input[type="radio"]{width: 18px; height: 18px; position: relative; top:2px}
+.wppb-user-forms ul li.li-avvisi .wppb-radios li > label{font-size: 17px; font-weight: 600;}
+.wppb-user-forms ul li.li-avvisi .wppb-description-delimiter ul > li{list-style: disc; font-size: 16px; font-style: normal;}
+.wppb-user-forms ul li.li-avvisi .wppb-description-delimiter ul > li:last-child{padding-bottom:0px}
+.wppb-user-forms ul li.li-avvisi .wppb-description-delimiter{padding-left:16px}
+.wppb-form-field.wppb-default-password button.wppb-toggle-pw{top:-15px!important}
+
+/* RESPONSIVE */
+
+@media(max-width: 785px){
+.container-giorno.orario-bloccato .li-giorno .extra_field_heading:after{display: block; margin-left:0px}
+}
+
+@media(max-width: 768px){
+.wppb-user-forms ul li.wppb-wysiwyg .container-ante-info{float: none; width: 100%; padding-right: 0px; padding-bottom: 15px}
+.wppb-user-forms ul li.wppb-wysiwyg .container-ante-info div:first-child{margin-bottom:5px}
+.wppb-user-forms .wppb-wysiwyg .wp-editor-wrap{float: none!important; width: 100%!important;}
+.wppb-user-forms ul li.wppb-wysiwyg{border-bottom:0px; margin-bottom:30px}
+#wppb-epaa-admin-review-links a{display:block; margin-bottom: -10px}
+.wppb-wysiwyg.wppb-form-field > span.wppb-description-delimiter.wppb-epaa-description{margin-left:0px}
+.container-giorno .wppb-repeater .wppb-epaa-actions{margin-left:20%; margin-top:15px}
+.wppb-wysiwyg .wppb-epaa-actions{margin-left:0}
+#select_user_to_edit_form p label{float: none; display: block; width: 100%;}
+#select_user_to_edit_form .wppb-form-field > span{margin-left:0px}
+#select_user_to_edit_form p, #select_user_to_edit_form{height: 80px;}
+#select_user_to_edit_form{margin-bottom:20px}
+#select_user_to_edit_form p:after{padding:27px}
+.wppb-user-forms ul li.li-avvisi > label{width: 100%; padding-right: 0px; display: block;}
+.wppb-user-forms ul li.li-avvisi .wppb-radios{width: 100%; display: block; margin:15px 0px}
+.wppb-user-forms ul li.li-avvisi .wppb-description-delimiter{width: 100%; margin-left:0px; display: block;}
+}
+
+@media(max-width: 520px){
+li.li-blocca > label, li.li-riposo > label{width: 100%; margin-bottom:10px; padding-bottom:10px; border-bottom:1px solid lightgray; padding-right: 0px;}
+.wppb-user-forms .wppb-form-field > ul.wppb-checkboxes{width: 100%; float: none;}
+.wppb-user-forms .wppb-checkboxes li, .wppb-user-forms .wppb-radios li{padding:0px!important}
+.wppb-form-field.li-blocca > span{margin-left:0px; margin-top:5px}
+.li-riposo.wppb-form-field > span.wppb-description-delimiter.wppb-epaa-description{margin-left:0}
+.container-giorno .li-riposo .wppb-epaa-actions, .container-giorno .wppb-repeater .wppb-epaa-actions{margin-left:0}
+}
+
+@media(max-width: 425px){
+.container-giorno{padding:0px; overflow: hidden; background-color: white;}
+.wppb-user-forms ul li.li-riposo, .wppb-user-forms ul li.li-appuntamento, .wppb-user-forms ul li.li-blocca, .wppb-user-forms .wppb-repeater > ul{padding:15px}
+.wppb-repeater > ul > li > label{width: 70px; padding-right: 5px;}
+.wppb-user-forms ul li.li-giorno{padding:5px 15px}
+.wppb-user-forms ul li.li-riposo, .wppb-user-forms ul li.li-blocca, .wppb-user-forms .wppb-repeater > ul{border-radius: 0px; border-right: 0px; border-left:0px; margin-bottom:0px; margin-top: 15px}
+.wppb-user-forms ul .container-giorno > li:nth-child(2){margin-top:0px}
+.wppb-user-forms ul li.wppb-repeater > ul:last-child{border-bottom:0px}
+.wppb-user-forms ul li.li-riposo, .wppb-user-forms .wppb-repeater > ul{border-color: gray; background-color: #eeeeee;}
+.wppb-user-forms ul li.li-riposo{margin-top:0px}
+.wppb-user-forms ul li.li-blocca{margin-bottom:15px}
+li.li-blocca > label, li.li-riposo > label{border-color:gray}
+.wppb-user-forms .wppb-repeater > ul > li.wppb-timepicker{border-color: gray;}
+.wppb-user-forms ul .container-giorno.riposo li.li-riposo{border-bottom:0px}
+.wppb-user-forms ul .container-giorno.orario-bloccato li.li-riposo, .wppb-user-forms .container-giorno.orario-bloccato .wppb-repeater > ul{background-color: #f7cece;}
+.wppb-user-forms ul .wppb-wysiwyg div.mce-tinymce.mce-panel{border-color:gray!important}
+.wppb-user-forms ul .wppb-wysiwyg div.mce-toolbar-grp{border-color:gray!important}
+.wppb-user-forms ul .wppb-wysiwyg div.mce-statusbar{border-color:gray!important}
+.wppb-user-forms .wppb-repeater > ul:after{border-top-left-radius: 0px; top:-6px}
+.wppb-form-field.wppb-repeater span.wppb-description-delimiter.wppb-epaa-description{margin-left: 70px}
+.container-btn-step span{width: 50%; font-size: 15px; min-width: auto;}
+}
+
+@media(max-width: 375px){
+.wppb-form-field.wppb-timepicker select{padding: 10px 25px 10px 5px}
+.wppb-wysiwyg .wppb-epaa-actions, .container-giorno .li-riposo .wppb-epaa-actions, .container-giorno .wppb-repeater .wppb-epaa-actions{padding:5px}
+.wppb-epaa-actions label{margin:0 3px 0 0}
+}

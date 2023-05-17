@@ -1,0 +1,9 @@
+.single-content p.p-intro-pagina{border-bottom:2px solid #252c5c; margin-bottom: 20px; padding-bottom:20px}
+.single-content h2.titolo-orari-single{margin-top:0px}
+.single-content .wp-block-group.cont-desc-pagina{margin-bottom:0px}
+.cont-gen-descrizioni > div.cont-desc-pagina{margin-bottom:20px}
+.cont-gen-descrizioni > div.cont-desc-pagina:last-child{margin-bottom:25px; padding-bottom:25px}
+.cont-gen-descrizioni > div.cont-desc-pagina h4{font-size: 26px}
+.cont-gen-descrizioni > div.cont-desc-pagina p{font-size: 16px}
+
+/* RESPONSIVE */

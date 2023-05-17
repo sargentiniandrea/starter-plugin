@@ -1,0 +1,142 @@
+.container-lista-op{display: grid; grid-template-columns: 1fr 1fr 1fr 1fr; gap: 2rem; margin-top:30px; transition: all 0.2s ease-out; position: relative;}
+.box-op{visibility: visible; opacity: 1; transition: all 0.2s ease-out; position: relative; z-index: 999;}
+.hide-op{opacity: 0; visibility: hidden; position: absolute; z-index: 9; bottom:-100%;}
+#search_carto{width: 100%; max-width: 400px; margin-top:30px}
+.cont-btn-toggle{margin-top:40px}
+.cont-btn-toggle span{margin-right: 0px; display: inline-block; cursor: pointer; background-color: var(--primary);}
+.cont-btn-toggle span:first-child{margin-right: 10px;}
+.cont-btn-toggle span.hide-btn{display: none}
+.cont-lista-carto{padding-bottom:30px}
+.cont-lista-carto.lista-op-1-col .container-lista-op{grid-template-columns: 1fr;}
+.cont-lista-carto.lista-op-2-col .container-lista-op{grid-template-columns: 1fr 1fr;}
+.cont-lista-carto.lista-op-3-col .container-lista-op{grid-template-columns: 1fr 1fr 1fr;}
+.cont-lista-carto.lista-op-4-col .container-lista-op{grid-template-columns: 1fr 1fr 1fr 1fr;}
+.cont-lista-carto.lista-op-5-col .container-lista-op{grid-template-columns: 1fr 1fr 1fr 1fr 1fr;}
+.cont-lista-carto.lista-op-6-col .container-lista-op{grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;}
+.cont-lista-carto.lista-op-7-col .container-lista-op{grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;}
+.cont-lista-carto.lista-op-8-col .container-lista-op{grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;}
+.cont-lista-carto.lista-op-0-gap .container-lista-op{gap: 0rem}
+.cont-lista-carto.lista-op-0_5-gap .container-lista-op{gap: 0.5rem}
+.cont-lista-carto.lista-op-1-gap .container-lista-op{gap: 1rem}
+.cont-lista-carto.lista-op-1_5-gap .container-lista-op{gap: 1.5rem}
+.cont-lista-carto.lista-op-2-gap .container-lista-op{gap: 2rem}
+.cont-lista-carto.lista-op-2_5-gap .container-lista-op{gap: 2.5rem}
+.cont-lista-carto.lista-op-3-gap .container-lista-op{gap: 3rem}
+.cont-lista-carto.lista-op-3_5-gap .container-lista-op{gap: 3.5rem}
+.cont-lista-carto.lista-op-4-gap .container-lista-op{gap: 4rem}
+
+.cont-lista-carto.lista-op-8-col.lista-op-4-gap .container-lista-op{gap: 2rem}
+.cont-lista-carto.lista-op-7-col.lista-op-4-gap .container-lista-op{gap: 2rem}
+.cont-lista-carto.lista-op-6-col.lista-op-4-gap .container-lista-op{gap: 2rem}
+.cont-lista-carto.lista-op-5-col.lista-op-4-gap .container-lista-op{gap: 2rem}
+
+.cont-lista-carto.lista-op-8-col.lista-op-3_5-gap .container-lista-op{gap: 2rem}
+.cont-lista-carto.lista-op-7-col.lista-op-3_5-gap .container-lista-op{gap: 2rem}
+.cont-lista-carto.lista-op-6-col.lista-op-3_5-gap .container-lista-op{gap: 2rem}
+.cont-lista-carto.lista-op-5-col.lista-op-3_5-gap .container-lista-op{gap: 2rem}
+
+.cont-lista-carto.lista-op-8-col.lista-op-3-gap .container-lista-op{gap: 2rem}
+.cont-lista-carto.lista-op-7-col.lista-op-3-gap .container-lista-op{gap: 2rem}
+.cont-lista-carto.lista-op-6-col.lista-op-3-gap .container-lista-op{gap: 2rem}
+.cont-lista-carto.lista-op-5-col.lista-op-3-gap .container-lista-op{gap: 2rem}
+
+.cont-lista-carto.lista-op-8-col.lista-op-2_5-gap .container-lista-op{gap: 2rem}
+.cont-lista-carto.lista-op-7-col.lista-op-2_5-gap .container-lista-op{gap: 2rem}
+.cont-lista-carto.lista-op-6-col.lista-op-2_5-gap .container-lista-op{gap: 2rem}
+.cont-lista-carto.lista-op-5-col.lista-op-2_5-gap .container-lista-op{gap: 2rem}
+
+/* RESPONSIVE */
+
+@media(max-width: 1105px){
+.container-lista-op{gap:1rem}
+.cont-lista-carto.lista-op-8-col .container-lista-op{grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;}
+}
+
+@media(max-width: 1035px){
+.container-lista-op{grid-template-columns: 1fr 1fr 1fr 1fr; gap:1rem}
+}
+
+@media(max-width: 1024px){
+.cont-lista-carto.lista-op-6-col .container-lista-op{grid-template-columns: 1fr 1fr 1fr 1fr 1fr;}
+.cont-lista-carto.lista-op-7-col .container-lista-op{grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;}
+.cont-lista-carto.lista-op-8-col .container-lista-op{grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;}
+}
+
+@media(max-width: 866px){
+.container-lista-op{grid-template-columns: 1fr 1fr 1fr;}
+.cont-lista-carto.lista-op-7-col .container-lista-op{grid-template-columns: 1fr 1fr 1fr 1fr 1fr;}
+.cont-lista-carto.lista-op-8-col .container-lista-op{grid-template-columns: 1fr 1fr 1fr 1fr 1fr;}
+}
+
+@media(max-width: 768px){
+.box-op .scheda-op{font-size: 16px;}
+#search_carto{max-width: 100%;}
+.cont-lista-carto.lista-op-2-gap .container-lista-op{gap:1rem}
+.cont-lista-carto.lista-op-4-col .container-lista-op{grid-template-columns: 1fr 1fr 1fr;}
+.cont-lista-carto.lista-op-5-col .container-lista-op{grid-template-columns: 1fr 1fr 1fr 1fr;}
+.cont-lista-carto.lista-op-6-col .container-lista-op{grid-template-columns: 1fr 1fr 1fr 1fr;}
+.cont-lista-carto.lista-op-7-col .container-lista-op{grid-template-columns: 1fr 1fr 1fr 1fr;}
+.cont-lista-carto.lista-op-8-col .container-lista-op{grid-template-columns: 1fr 1fr 1fr 1fr;}
+
+.cont-lista-carto.lista-op-8-col.lista-op-4-gap .container-lista-op{gap: 1rem}
+.cont-lista-carto.lista-op-7-col.lista-op-4-gap .container-lista-op{gap: 1rem}
+.cont-lista-carto.lista-op-6-col.lista-op-4-gap .container-lista-op{gap: 1rem}
+.cont-lista-carto.lista-op-5-col.lista-op-4-gap .container-lista-op{gap: 1rem}
+
+.cont-lista-carto.lista-op-8-col.lista-op-3_5-gap .container-lista-op{gap: 1rem}
+.cont-lista-carto.lista-op-7-col.lista-op-3_5-gap .container-lista-op{gap: 1rem}
+.cont-lista-carto.lista-op-6-col.lista-op-3_5-gap .container-lista-op{gap: 1rem}
+.cont-lista-carto.lista-op-5-col.lista-op-3_5-gap .container-lista-op{gap: 1rem}
+
+.cont-lista-carto.lista-op-8-col.lista-op-3-gap .container-lista-op{gap: 1rem}
+.cont-lista-carto.lista-op-7-col.lista-op-3-gap .container-lista-op{gap: 1rem}
+.cont-lista-carto.lista-op-6-col.lista-op-3-gap .container-lista-op{gap: 1rem}
+.cont-lista-carto.lista-op-5-col.lista-op-3-gap .container-lista-op{gap: 1rem}
+
+.cont-lista-carto.lista-op-8-col.lista-op-2_5-gap .container-lista-op{gap: 1rem}
+.cont-lista-carto.lista-op-7-col.lista-op-2_5-gap .container-lista-op{gap: 1rem}
+.cont-lista-carto.lista-op-6-col.lista-op-2_5-gap .container-lista-op{gap: 1rem}
+.cont-lista-carto.lista-op-5-col.lista-op-2_5-gap .container-lista-op{gap: 1rem}
+
+}
+
+@media(max-width: 580px){
+.container-lista-op{gap:1rem}
+.cont-lista-carto.lista-op-5-col .container-lista-op{grid-template-columns: 1fr 1fr 1fr;}
+.cont-lista-carto.lista-op-6-col .container-lista-op{grid-template-columns: 1fr 1fr 1fr;}
+.cont-lista-carto.lista-op-7-col .container-lista-op{grid-template-columns: 1fr 1fr 1fr;}
+.cont-lista-carto.lista-op-8-col .container-lista-op{grid-template-columns: 1fr 1fr 1fr;}
+}
+
+@media(max-width: 563px){
+.container-lista-op{grid-template-columns: 1fr 1fr;}
+}
+
+@media(max-width: 520px){
+
+}
+
+@media(max-width: 450px){
+.cont-btn-toggle span{margin-right: 0px; margin-bottom: 0px; display: block; text-align: center}
+.cont-btn-toggle span:first-child{margin-bottom: 15px; margin-right:0px}
+.box-op .nome-op{font-size: 20px;}
+}
+
+@media(max-width: 425px){
+.cont-lista-carto.lista-op-3-col .container-lista-op{grid-template-columns: 1fr 1fr;}
+.cont-lista-carto.lista-op-4-col .container-lista-op{grid-template-columns: 1fr 1fr;}
+.cont-lista-carto.lista-op-5-col .container-lista-op{grid-template-columns: 1fr 1fr;}
+.cont-lista-carto.lista-op-6-col .container-lista-op{grid-template-columns: 1fr 1fr;}
+.cont-lista-carto.lista-op-7-col .container-lista-op{grid-template-columns: 1fr 1fr;}
+.cont-lista-carto.lista-op-8-col .container-lista-op{grid-template-columns: 1fr 1fr;}
+
+}
+
+@media(max-width: 380px){
+.container-lista-op{grid-template-columns: 1fr 1fr;}
+}
+
+@media(max-width: 355px){
+.container-lista-op{grid-template-columns: 1fr;}
+}
+    
