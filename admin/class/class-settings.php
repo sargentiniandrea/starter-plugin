@@ -17,7 +17,7 @@ class Starter_Plugin_Settings{
     public function __construct(){
         
         // Impostazioni generali plugin
-        add_action( 'admin_menu', array($this, 'admin_menu_setting_helper_as'));
+        add_action( 'admin_menu', array($this, 'admin_menu_setting_helper'));
 
     }
 
@@ -26,7 +26,7 @@ class Starter_Plugin_Settings{
      * Impostazioni generali plugin
      */
 
-    public function admin_menu_setting_helper_as(){
+    public function admin_menu_setting_helper(){
         require_once SP_PLUG_PATH . 'vendor/class-boo-settings-helper.php';
         $array_data_setting_helper             = array();
         $array_data_setting_helper['tabs']     = true;
