@@ -5,12 +5,14 @@
  */
 
 // Slug repository GitHub
-$slugGitPlugin = 'starter-plugin';
-// Ramo. Es. Stable 
-$branchGitPlugin = 'Development';
+$slugGitPlugin = DR_SLUG;
+
+// Ramo. Es. Stable
+$branchGitPlugin = get_option('branch_updates') ? get_option('branch_updates') : 'master';
 
 // Link repository GitHub.
 $linkGitPlugin = 'https://github.com/sargentiniandrea/'.$slugGitPlugin.'/';
+
 // Token
 $token = get_option('token_updates') ? get_option('token_updates') : '';
 

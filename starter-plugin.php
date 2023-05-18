@@ -12,8 +12,7 @@ License:     GPL2
  * Cambiare nome file principale: starter-plugin.php
  * Cambiare nome file classe principale: class-starter-plugin.php
  * Cambiare intestazione e file readme.txt
- * Cambiare il prefisso SP_ per sostituire il prefisso delle costanti.
- * Cambiare le stringhe starter-plugin, starter_plugin e Starter_Plugin per i prefissi di riferimenti, funzioni e classi.
+ * Cambiare le stringhe SP_, starter-plugin, starter_plugin e Starter_Plugin per i prefissi di costanti, riferimenti, funzioni e classi.
  * 
  * Per attivare pagina impostazioni togliere commenti alle relative righe nel file class-admin.php
  * Per attivare plugin richiesti togliere commenti alle relative righe nel file class-admin.php
@@ -24,9 +23,10 @@ if ( ! defined( 'WPINC' ) ) {
 }
 
 /*
- * Percorso file principale
+ * Percorso file principale e slug
  */
 Define('SP_MAIN_FILE_PATH' , __FILE__);
+define('SP_SLUG', 'starter-plugin');
 
 /*
  * Costanti

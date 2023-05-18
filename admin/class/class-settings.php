@@ -56,17 +56,17 @@ class Starter_Plugin_Settings{
             'impostazioni_generali' => array(
                 array(
 					'id'    => 'text_field_id',
-					'label' => __( 'Text Field', 'plugin-name' ),
+					'label' => __( 'Text Field', DR_TXT_DOM ),
 				),
 				array(
 					'id'    => 'color_field_id',
-					'label' => __( 'Color Field', 'plugin-name' ),
+					'label' => __( 'Color Field', DR_TXT_DOM ),
 					'type'  => 'color',
 				),
 				array(
 					'id'      => 'radio_field_id',
-					'label'   => __( 'Radio Button', 'plugin-name' ),
-					'desc'    => __( 'A radio button', 'plugin-name' ),
+					'label'   => __( 'Radio Button', DR_TXT_DOM ),
+					'desc'    => __( 'A radio button', DR_TXT_DOM ),
 					'type'    => 'radio',
 					'options' => array(
 						'radio_1' => 'Radio 1',
@@ -77,8 +77,8 @@ class Starter_Plugin_Settings{
 				),
 				array(
 					'id'      => 'select_field_id',
-					'label'   => __( 'A Dropdown Select', 'plugin-name' ),
-					'desc'    => __( 'Dropdown description', 'plugin-name' ),
+					'label'   => __( 'A Dropdown Select', DR_TXT_DOM ),
+					'desc'    => __( 'Dropdown description', DR_TXT_DOM ),
 					'type'    => 'select',
 					'default' => 'option_2',
 					'options' => array(
@@ -91,9 +91,15 @@ class Starter_Plugin_Settings{
 
             'setting_aggiornamenti' => array(
                 array(
+                    'id'    => 'branch_updates',
+                    'label' => __( 'Branch aggiornamenti', DR_TXT_DOM ),
+                    'desc'    => __( 'Inserisci il branch di collegamento. Valore di default: master.', DR_TXT_DOM ),
+                    'type'  => 'text'
+                ),
+                array(
                     'id'    => 'token_updates',
-                    'label' => __( 'Token aggiornamenti', SP_SLUG ),
-                    'desc'    => __( 'Inserisci il token di collegamento per gli aggiornamenti', SP_SLUG ),
+                    'label' => __( 'Token aggiornamenti', DR_TXT_DOM ),
+                    'desc'    => __( '<strong>In caso di repository privata.</strong> Inserisci il token di collegamento.', DR_TXT_DOM ),
                     'type'  => 'text'
                 ),
             ),
